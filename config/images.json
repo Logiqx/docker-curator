@@ -1,0 +1,275 @@
+[{
+		"name": "Application Frameworks",
+		"category": "application_framework",
+		"repositories": [{
+			"name": "NGINX",
+			"repository": "nginx",
+			"deployed": "1.14-alpine",
+			"desired": "1.17-alpine",
+			"checks": [{
+					"release": "1",
+					"tags": {
+						"latest": "1"
+					}
+				},
+				{
+					"release": "1.17",
+					"tags": {
+						"1": "1.17"
+					}
+				},
+				{
+					"release": "1.17 Alpine",
+					"tags": {
+						"alpine": "1-alpine",
+						"1-alpine": "1.17-alpine"
+					}
+				}
+			],
+			"days": 90,
+			"news": "http://nginx.org/",
+			"releases": "http://nginx.org/en/CHANGES"
+		}]
+	},
+	{
+		"name": "Databases",
+		"category": "database",
+		"repositories": [{
+				"name": "MariaDB",
+				"repository": "mariadb",
+				"deployed": "10.3-bionic",
+				"desired": "10.4-bionic",
+				"checks": [{
+						"release": "10",
+						"tags": {
+							"latest": "10"
+						}
+					},
+					{
+						"release": "10.4",
+						"tags": {
+							"10": "10.4"
+						}
+					},
+					{
+						"release": "10.4 Bionic",
+						"tags": {
+							"10.4": "10.4-bionic"
+						}
+					}
+				],
+				"days": 90,
+				"news": "https://mariadb.org/category/announcement/",
+				"releases": "https://mariadb.com/kb/en/mariadb-server/",
+				"upgrades": "https://mariadb.com/kb/en/upgrading/"
+			},
+			{
+				"name": "MySQL",
+				"repository": "mysql",
+				"deployed": "8.0",
+				"desired": "8.0",
+				"checks": [{
+						"release": "8",
+						"tags": {
+							"latest": "8"
+						}
+					},
+					{
+						"release": "8.0",
+						"tags": {
+							"8": "8.0"
+						}
+					}
+				],
+				"days": 90,
+				"news": "https://www.mysql.com/news-and-events/",
+				"releases": "https://dev.mysql.com/doc/relnotes/mysql/8.0/en/",
+				"upgrades": "https://dev.mysql.com/doc/refman/8.0/en/upgrading.html"
+			}
+		]
+	},
+	{
+		"name": "DevOps Tools",
+		"category": "tools",
+		"repositories": [{
+			"name": "Jenkins",
+			"repository": "jenkins/jenkins",
+			"deployed": "2.190.1-alpine",
+			"desired": "2.204.2-alpine",
+			"checks": [{
+					"release": "2.204.2",
+					"tags": {
+						"lts": "2.204.2"
+					}
+				},
+				{
+					"release": "2.204.2 Slim",
+					"tags": {
+						"lts-slim": "2.204.2-slim"
+					}
+				},
+				{
+					"release": "2.204.2 Alpine",
+					"tags": {
+						"lts-alpine": "2.204.2-alpine"
+					}
+				}
+			],
+			"days": 90,
+			"news": "https://jenkins.io/node/",
+			"releases": "https://jenkins.io/changelog-stable/",
+			"upgrades": "https://jenkins.io/doc/upgrade-guide/"
+		}]
+	},
+	{
+		"name": "Programming Languages",
+		"category": "languages",
+		"repositories": [{
+				"repository": "python",
+				"name": "Python",
+				"deployed": "3.8-alpine3.11",
+				"desired": "3.8-alpine3.11",
+				"checks": [{
+						"release": "3",
+						"tags": {
+							"latest": "3"
+						}
+					},
+					{
+						"release": "3.8",
+						"tags": {
+							"3": "3.8"
+						}
+					},
+					{
+						"release": "3.8 Slim",
+						"tags": {
+							"slim": "3-slim",
+							"3-slim": "3.8-slim"
+						}
+					},
+					{
+						"release": "3.8 Slim Buster",
+						"tags": {
+							"slim": "slim-buster",
+							"slim-buster": "3-slim-buster",
+							"3-slim-buster": "3.8-slim-buster"
+						}
+					},
+					{
+						"release": "3.8 Alpine",
+						"tags": {
+							"alpine": "3-alpine",
+							"3-alpine": "3.8-alpine"
+						}
+					},
+					{
+						"release": "3.8 Alpine 3.11",
+						"tags": {
+							"alpine": "alpine3.11",
+							"alpine3.11": "3-alpine3.11",
+							"3-alpine3.11": "3.8-alpine3.11"
+						}
+					}
+				],
+				"days": 90,
+				"news": "https://www.python.org/blogs/",
+				"releases": "https://www.python.org/downloads/"
+			},
+			{
+				"name": "PHP-FPM",
+				"repository": "php",
+				"deployed": "7.3-fpm-alpine3.9",
+				"desired": "7.4-fpm-alpine3.11",
+				"checks": [{
+						"release": "7-fpm",
+						"tags": {
+							"fpm": "7-fpm"
+						}
+					},
+					{
+						"release": "7.4-fpm",
+						"tags": {
+							"7-fpm": "7.4-fpm"
+						}
+					},
+					{
+						"release": "7.4-fpm-alpine",
+						"tags": {
+							"fpm-alpine": "7-fpm-alpine",
+							"7-fpm-alpine": "7.4-fpm-alpine"
+						}
+					},
+					{
+						"release": "7.4-fpm-alpine3.11",
+						"tags": {
+							"fpm-alpine": "fpm-alpine3.11",
+							"fpm-alpine3.11": "7-fpm-alpine3.11",
+							"7-fpm-alpine3.11": "7.4-fpm-alpine3.11"
+						}
+					}
+				],
+				"days": 90,
+				"news": "https://www.php.net/",
+				"releases": "https://www.php.net/releases/index.php"
+			}
+		]
+	},
+	{
+		"name": "Operating Systems",
+		"category": "os",
+		"repositories": [{
+				"name": "Alpine Linux",
+				"repository": "alpine",
+				"deployed": "3.10",
+				"desired": "3.11",
+				"checks": [{
+						"release": "3",
+						"tags": {
+							"latest": "3"
+						}
+					},
+					{
+						"release": "3.11",
+						"tags": {
+							"3": "3.11"
+						}
+					}
+				],
+				"days": 90,
+				"news": "https://alpinelinux.org/posts/",
+				"releases": "https://alpinelinux.org/releases/"
+			},
+			{
+				"name": "Debian",
+				"repository": "debian",
+				"deployed": "buster",
+				"desired": "buster",
+				"checks": [{
+					"release": "Buster",
+					"tags": {
+						"latest": "buster"
+					}
+				}],
+				"days": 90,
+				"news": "https://www.debian.org/News/",
+				"releases": "https://wiki.debian.org/DebianReleases"
+			},
+			{
+				"name": "Ubuntu",
+				"repository": "ubuntu",
+				"deployed": "bionic",
+				"desired": "bionic",
+				"checks": [{
+					"release": "Bionic",
+					"tags": {
+						"latest": "bionic"
+					}
+				}],
+				"days": 90,
+				"news": "https://lists.ubuntu.com/",
+				"releases": "https://wiki.ubuntu.com/Releases"
+			}
+		]
+	}
+]
