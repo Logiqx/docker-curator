@@ -1,77 +1,45 @@
-## Application Frameworks
+## Operating Systems
 
-### NGINX
-### nginx:1.14-alpine - NEEDS ATTENTION
+### Alpine Linux
+### alpine:3.10 - NEEDS ATTENTION
 
-Docker Hub - https://hub.docker.com/_/nginx
-News - http://nginx.org/
-Releases - http://nginx.org/en/CHANGES
+Docker Hub - https://hub.docker.com/_/alpine
+News - https://alpinelinux.org/posts/
+Releases - https://alpinelinux.org/releases/
 
-    1
-      latest = 1
+    3
+      latest = 3
 
-    1.17
-      1 != 1.17
-        ['1', 'mainline', 'latest', '1.19.7', '1.19.7', '1.19']
+    3.11
+      3 != 3.11
+        ['latest', '3.13.2', '3.13', '3']
 
-    1.17 Alpine
-      alpine = 1-alpine
-      1-alpine != 1.17-alpine
-        ['mainline-alpine', 'mainline-alpine', 'alpine', '1.19.7-alpine', '1.19-alpine', '1-alpine']
 
-## Databases
 
-### MariaDB
-### mariadb:10.3-bionic - NEEDS ATTENTION
+### Debian
+### debian:buster
 
-Docker Hub - https://hub.docker.com/_/mariadb
-News - https://mariadb.org/category/announcement/
-Releases - https://mariadb.com/kb/en/mariadb-server/
+Docker Hub - https://hub.docker.com/_/debian
+News - https://www.debian.org/News/
+Releases - https://wiki.debian.org/DebianReleases
 
-    10
-      latest = 10
+    Buster
+      latest = buster
 
-    10.4
-      10 != 10.4
-        ['latest', 'focal', '10.5.9-focal', '10.5.9', '10.5-focal', '10.5', '10-focal', '10']
 
-    10.4 Bionic
-      10.4 != 10.4-bionic
-        ['10.4.18-focal', '10.4.18', '10.4-focal', '10.4']
 
-### MySQL
-### mysql:8.0
+### Ubuntu
+### ubuntu:bionic - NEEDS ATTENTION
 
-Docker Hub - https://hub.docker.com/_/mysql
-News - https://www.mysql.com/news-and-events/
-Releases - https://dev.mysql.com/doc/relnotes/mysql/8.0/en/
+Docker Hub - https://hub.docker.com/_/ubuntu
+News - https://lists.ubuntu.com/
+Releases - https://wiki.ubuntu.com/Releases
 
-    8
-      latest = 8
+    Bionic
+      latest != bionic
+        ['latest', 'focal-20210217', 'focal', '20.04']
 
-    8.0
-      8 = 8.0
 
-## DevOps Tools
-
-### Jenkins
-### jenkins/jenkins:2.190.1-alpine - NEEDS ATTENTION
-
-Docker Hub - https://hub.docker.com/r/jenkins/jenkins
-News - https://jenkins.io/node/
-Releases - https://jenkins.io/changelog-stable/
-
-    2.204.2
-      lts != 2.204.2
-        ['2.263.4-lts', 'lts', '2.263.4']
-
-    2.204.2 Slim
-      lts-slim != 2.204.2-slim
-        ['2.263.4-lts-slim', 'lts-slim', '2.263.4-slim']
-
-    2.204.2 Alpine
-      lts-alpine != 2.204.2-alpine
-        ['2.263.4-lts-alpine', 'lts-alpine', '2.263.4-alpine']
 
 ## Programming Languages
 
@@ -111,6 +79,8 @@ Releases - https://www.python.org/downloads/
       alpine3.11 not found
       3-alpine3.11 not found
 
+
+
 ### PHP-FPM
 ### php:7.3-fpm-alpine3.9 - NEEDS ATTENTION
 
@@ -136,40 +106,88 @@ Releases - https://www.php.net/releases/index.php
       fpm-alpine3.11 not found
       7-fpm-alpine3.11 = 7.4-fpm-alpine3.11
 
-## Operating Systems
 
-### Alpine Linux
-### alpine:3.10 - NEEDS ATTENTION
 
-Docker Hub - https://hub.docker.com/_/alpine
-News - https://alpinelinux.org/posts/
-Releases - https://alpinelinux.org/releases/
+## Application Frameworks
 
-    3
-      latest = 3
+### NGINX
+### nginx:1.14-alpine - NEEDS ATTENTION
 
-    3.11
-      3 != 3.11
-        ['latest', '3.13.2', '3.13', '3']
+Docker Hub - https://hub.docker.com/_/nginx
+News - http://nginx.org/
+Releases - http://nginx.org/en/CHANGES
 
-### Debian
-### debian:buster
+    1
+      latest = 1
 
-Docker Hub - https://hub.docker.com/_/debian
-News - https://www.debian.org/News/
-Releases - https://wiki.debian.org/DebianReleases
+    1.17
+      1 != 1.17
+        ['1', 'mainline', 'latest', '1.19.7', '1.19.7', '1.19']
 
-    Buster
-      latest = buster
+    1.17 Alpine
+      alpine = 1-alpine
+      1-alpine != 1.17-alpine
+        ['mainline-alpine', 'mainline-alpine', 'alpine', '1.19.7-alpine', '1.19-alpine', '1-alpine']
 
-### Ubuntu
-### ubuntu:bionic - NEEDS ATTENTION
 
-Docker Hub - https://hub.docker.com/_/ubuntu
-News - https://lists.ubuntu.com/
-Releases - https://wiki.ubuntu.com/Releases
 
-    Bionic
-      latest != bionic
-        ['latest', 'focal-20210217', 'focal', '20.04']
+## Databases
+
+### MariaDB
+### mariadb:10.3-bionic - NEEDS ATTENTION
+
+Docker Hub - https://hub.docker.com/_/mariadb
+News - https://mariadb.org/category/announcement/
+Releases - https://mariadb.com/kb/en/mariadb-server/
+
+    10
+      latest = 10
+
+    10.4
+      10 != 10.4
+        ['latest', 'focal', '10.5.9-focal', '10.5.9', '10.5-focal', '10.5', '10-focal', '10']
+
+    10.4 Bionic
+      10.4 != 10.4-bionic
+        ['10.4.18-focal', '10.4.18', '10.4-focal', '10.4']
+
+
+
+### MySQL
+### mysql:8.0
+
+Docker Hub - https://hub.docker.com/_/mysql
+News - https://www.mysql.com/news-and-events/
+Releases - https://dev.mysql.com/doc/relnotes/mysql/8.0/en/
+
+    8
+      latest = 8
+
+    8.0
+      8 = 8.0
+
+
+
+## DevOps Tools
+
+### Jenkins
+### jenkins/jenkins:2.190.1-alpine - NEEDS ATTENTION
+
+Docker Hub - https://hub.docker.com/r/jenkins/jenkins
+News - https://jenkins.io/node/
+Releases - https://jenkins.io/changelog-stable/
+
+    2.204.2
+      lts != 2.204.2
+        ['2.263.4-lts', 'lts', '2.263.4']
+
+    2.204.2 Slim
+      lts-slim != 2.204.2-slim
+        ['2.263.4-lts-slim', 'lts-slim', '2.263.4-slim']
+
+    2.204.2 Alpine
+      lts-alpine != 2.204.2-alpine
+        ['2.263.4-lts-alpine', 'lts-alpine', '2.263.4-alpine']
+
+
 
