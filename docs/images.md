@@ -5,11 +5,9 @@
 
 **REQUIRES ATTENTION**
 
-Docker Hub - https://hub.docker.com/_/alpine
-
-News - https://alpinelinux.org/posts/
-
-Releases - https://alpinelinux.org/releases/
+- [Docker Hub](https://hub.docker.com/_/alpine)
+- [News](https://alpinelinux.org/posts/)
+- [Releases](https://alpinelinux.org/releases/)
 
 
     3
@@ -23,11 +21,9 @@ Releases - https://alpinelinux.org/releases/
 ### Debian
 #### buster
 
-Docker Hub - https://hub.docker.com/_/debian
-
-News - https://www.debian.org/News/
-
-Releases - https://wiki.debian.org/DebianReleases
+- [Docker Hub](https://hub.docker.com/_/debian)
+- [News](https://www.debian.org/News/)
+- [Releases](https://wiki.debian.org/DebianReleases)
 
 
     Buster
@@ -40,11 +36,9 @@ Releases - https://wiki.debian.org/DebianReleases
 
 **REQUIRES ATTENTION**
 
-Docker Hub - https://hub.docker.com/_/ubuntu
-
-News - https://lists.ubuntu.com/
-
-Releases - https://wiki.ubuntu.com/Releases
+- [Docker Hub](https://hub.docker.com/_/ubuntu)
+- [News](https://lists.ubuntu.com/)
+- [Releases](https://wiki.ubuntu.com/Releases)
 
 
     Focal
@@ -59,11 +53,9 @@ Releases - https://wiki.ubuntu.com/Releases
 
 **REQUIRES ATTENTION**
 
-Docker Hub - https://hub.docker.com/_/python
-
-News - https://www.python.org/blogs/
-
-Releases - https://www.python.org/downloads/
+- [Docker Hub](https://hub.docker.com/_/python)
+- [News](https://www.python.org/blogs/)
+- [Releases](https://www.python.org/downloads/)
 
 
     3
@@ -97,11 +89,9 @@ Releases - https://www.python.org/downloads/
 
 **REQUIRES ATTENTION**
 
-Docker Hub - https://hub.docker.com/_/php
-
-News - https://www.php.net/
-
-Releases - https://www.php.net/releases/index.php
+- [Docker Hub](https://hub.docker.com/_/php)
+- [News](https://www.php.net/)
+- [Releases](https://www.php.net/releases/index.php)
 
 
     8-fpm
@@ -128,11 +118,9 @@ Releases - https://www.php.net/releases/index.php
 
 **REQUIRES ATTENTION**
 
-Docker Hub - https://hub.docker.com/_/nginx
-
-News - http://nginx.org/
-
-Releases - http://nginx.org/en/CHANGES
+- [Docker Hub](https://hub.docker.com/_/nginx)
+- [News](http://nginx.org/)
+- [Releases](http://nginx.org/en/CHANGES)
 
 
     1
@@ -154,11 +142,9 @@ Releases - http://nginx.org/en/CHANGES
 
 **REQUIRES ATTENTION**
 
-Docker Hub - https://hub.docker.com/_/mariadb
-
-News - https://mariadb.org/category/announcement/
-
-Releases - https://mariadb.com/kb/en/mariadb-server/
+- [Docker Hub](https://hub.docker.com/_/mariadb)
+- [News](https://mariadb.org/category/announcement/)
+- [Releases](https://mariadb.com/kb/en/mariadb-server/)
 
 
     10
@@ -175,11 +161,9 @@ Releases - https://mariadb.com/kb/en/mariadb-server/
 ### MySQL
 #### 8.0
 
-Docker Hub - https://hub.docker.com/_/mysql
-
-News - https://www.mysql.com/news-and-events/
-
-Releases - https://dev.mysql.com/doc/relnotes/mysql/8.0/en/
+- [Docker Hub](https://hub.docker.com/_/mysql)
+- [News](https://www.mysql.com/news-and-events/)
+- [Releases](https://dev.mysql.com/doc/relnotes/mysql/8.0/en/)
 
 
     8
@@ -197,11 +181,9 @@ Releases - https://dev.mysql.com/doc/relnotes/mysql/8.0/en/
 
 **REQUIRES ATTENTION**
 
-Docker Hub - https://hub.docker.com/r/jenkins/jenkins
-
-News - https://jenkins.io/node/
-
-Releases - https://jenkins.io/changelog-stable/
+- [Docker Hub](https://hub.docker.com/r/jenkins/jenkins)
+- [News](https://jenkins.io/node/)
+- [Releases](https://jenkins.io/changelog-stable/)
 
 
     2.263.4
