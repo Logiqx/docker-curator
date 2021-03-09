@@ -59,7 +59,7 @@ Once I know what new Docker images are available, I go through my projects and u
 
 Alpine system packages are installed using "apk".
 
-I have listed the Alpine packages in a separate [alpine](alpine.md) document.
+I have listed the Alpine packages in a separate [Alpine](alpine.md) document.
 
 
 
@@ -81,7 +81,7 @@ I have listed the Ubuntu packages in a separate [Ubuntu](ubuntu.md) document.
 
 ### Python
 
-#### PIP
+#### pip
 
 Many of my projects and Docker images install images from PyPI using "pip".
 

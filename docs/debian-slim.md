@@ -16,7 +16,7 @@ tini 0.18.\* is used as the Docker ENTRYPOINT in many of my projects.
 
 #### mariadb-client
 
-mariadb-client-10.3 is used by a few projects:
+mariadb-client-10.3 is used by a couple of projects:
 
 - logiqx/mysql-client
 - wca-db
