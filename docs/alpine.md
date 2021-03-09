@@ -16,11 +16,15 @@ tini ~0.18 and ~0.19 are used as the Docker ENTRYPOINT in many of my projects.
 
 #### mysql-client
 
-mysql-client ~10.4 is used by a few projects:
+mysql-client ~is used by a few projects:
+
+~10.5
 
 - logiqx/mysql-client
+
+~10.4 
+
 - wca-db
-- wca-db (notebook)
 
 
 
@@ -57,5 +61,5 @@ docker is used by one project:
 
 groff is only used by one project:
 
-- aws-cli
+- logiqx/aws-cli
 

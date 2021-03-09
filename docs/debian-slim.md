@@ -20,7 +20,6 @@ mariadb-client-10.3 is used by a few projects:
 
 - logiqx/mysql-client
 - wca-db
-- wca-db (notebook)
 
 
 
@@ -38,10 +37,6 @@ gcc is used during multi-stage builds:
 
 - logiqx/python-lev
 
-My generic development environment also includes it for compiling [python-Levenshtein](pip/python-Levenshtein.md):
-
-- wca-db (notebook)
-
 
 
 #### imagemagick
@@ -56,5 +51,5 @@ imagemagick is used by one project:
 
 groff is only used by one project:
 
-- aws-cli
+- logiqx/aws-cli
 

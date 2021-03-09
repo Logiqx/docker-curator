@@ -53,16 +53,6 @@ Once I know what new Docker images are available, I go through my projects and u
 
 ## Additional Dependencies
 
-### Python
-
-#### PIP
-
-Many of my projects and Docker images install images from PyPI using "pip".
-
-I have listed these libraries in a separate [pip](pip/README.md) document.
-
-
-
 ### System Packages
 
 #### Alpine
@@ -77,6 +67,22 @@ I have listed the Alpine packages in a separate [alpine](alpine.md) document.
 
 Debian packages are installed using "apt-get".
 
-I have listed the Debian  packages in a separate [Debian (slim)](debian-slim.md) document.
+I have listed the Debian packages in a separate [Debian (slim)](debian-slim.md) document.
 
   
+
+#### Ubuntu
+
+Ubuntu packages are installed using "apt-get".
+
+I have listed the Ubuntu packages in a separate [Ubuntu](ubuntu.md) document.
+
+  
+
+### Python
+
+#### PIP
+
+Many of my projects and Docker images install images from PyPI using "pip".
+
+I have listed these libraries in a separate [pip](pip/README.md) document as there is no dependency on the Docker base image.
