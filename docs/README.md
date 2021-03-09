@@ -36,6 +36,8 @@ The biggest advantage is that the Dockerfile can be shared and re-used with high
 
 ## Docker Curator
 
+### Docker Images
+
 The way that I monitor for new Docker images is via a homemade Python script which I have called the Docker Curator.
 
 The script uses a simple JSON configuration file and searches Docker Hub for newer versions of specific images.
@@ -45,3 +47,34 @@ Once I know what new Docker images are available, I go through my projects and u
 - Firstly, I update my public repositories on Docker Hub - see further [details](dockerhub/README.md)
 - Secondly, I update my public and private repositories on GitHub - see further [details](github.md)
 
+
+
+
+
+## Additional Dependencies
+
+### Python
+
+#### PIP
+
+Many of my projects and Docker images install images from PyPI using "pip".
+
+I have listed these libraries in a separate [document](pip/README.md).
+
+
+
+### System Packages
+
+#### Alpine
+
+Alpine images install system packages using "apk".
+
+TODO
+
+
+
+#### Debian
+
+Debian images install system packages using "apt-get".
+
+TODO
