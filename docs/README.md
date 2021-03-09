@@ -59,7 +59,7 @@ Once I know what new Docker images are available, I go through my projects and u
 
 Many of my projects and Docker images install images from PyPI using "pip".
 
-I have listed these libraries in a separate [document](pip/README.md).
+I have listed these libraries in a separate [pip](pip/README.md) document.
 
 
 
@@ -67,14 +67,16 @@ I have listed these libraries in a separate [document](pip/README.md).
 
 #### Alpine
 
-Alpine images install system packages using "apk".
+Alpine system packages are installed using "apk".
 
-TODO
+I have listed the Alpine packages in a separate [alpine](alpine.md) document.
 
 
 
-#### Debian
+#### Debian (slim)
 
-Debian images install system packages using "apt-get".
+Debian packages are installed using "apt-get".
 
-TODO
+I have listed the Debian  packages in a separate [Debian (slim)](debian-slim.md) document.
+
+  
