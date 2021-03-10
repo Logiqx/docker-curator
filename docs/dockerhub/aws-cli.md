@@ -21,6 +21,7 @@ ALPINE_VERSION=3.13
 DEBIAN_VERSION=buster
 
 AWS_VERSION=1.19
+TINI_VERSION=0.19
 ```
 
 3. Build and test the images locally
@@ -34,7 +35,7 @@ docker image build . -f Dockerfile-slim -t ${IMAGE}:${AWS_VERSION}-slim-${DEBIAN
 
 ```
 git add Dockerfile* README.md
-git commit -m "Update to Python ${PYTHON_VERSION}, Alpine ${ALPINE_VERSION}, awscli ${AWS_VERSION}"
+git commit -m "Update to Python ${PYTHON_VERSION}, Alpine ${ALPINE_VERSION}, Debian ${DEBIAN_VERSION}, awscli ${AWS_VERSION}, Tini ${TINI_VERSION}"
 git push
 
 for TAG in ${AWS_VERSION}-alpine${ALPINE_VERSION} ${AWS_VERSION}-slim-${DEBIAN_VERSION}
