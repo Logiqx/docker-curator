@@ -4,16 +4,13 @@
 
 I'm using lxml in a couple of projects:
 
-4.4.*
-
-- wca-db (notebook)
-
 4.6.*
 
 - logiqx/python-lxml
   - logiqx/python-bs4
     - covid-stats
   - wca-ipy
+- wca-compose (dev/notebook)
 
 
 

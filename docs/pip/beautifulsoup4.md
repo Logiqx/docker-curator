@@ -4,14 +4,11 @@
 
 I'm using beautifulsoup4 in several projects:
 
-4.8.*
-
-- wca-ipy
-- wca-db (notebook)
-
 4.9.*
 
 - logiqx/python-bs4
+- wca-ipy
+- wca-compose (dev/notebook)
 
 
 
@@ -25,4 +22,5 @@ I'm using beautifulsoup4 in several projects:
 
 - [PyPI](https://pypi.org/project/beautifulsoup4/)
 - [Homepage](https://www.crummy.com/software/BeautifulSoup/)
+- [Changelog](https://bazaar.launchpad.net/~leonardr/beautifulsoup/bs4/view/head:/CHANGELOG)
 

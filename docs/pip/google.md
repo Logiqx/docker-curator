@@ -6,7 +6,7 @@ I'm using google in a single project:
 
 2.0.*
 
-- wca-db (notebook)
+- wca-compose (dev/notebook)
 
 
 

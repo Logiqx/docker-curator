@@ -8,7 +8,7 @@ I'm using python-Levenshtein in several projects:
 
 - logiqx/python-lev
   - scw-comp
-- wca-db (notebook)
+- wca-compose (dev/notebook)
 
 
 

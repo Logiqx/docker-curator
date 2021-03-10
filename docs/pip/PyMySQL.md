@@ -4,11 +4,11 @@
 
 I'm using PyMySQL in several projects:
 
-0.9.*
+1.0.*
 
 - wca-ipy
   - plus private project
-- wca-db (notebook)
+- wca-compose (dev/notebook)
 
 
 
@@ -23,4 +23,5 @@ I'm using PyMySQL in several projects:
 - [PyPI](https://pypi.org/project/PyMySQL/)
 - [Homepage](https://github.com/PyMySQL/PyMySQL/)
 - [Documentation](https://pymysql.readthedocs.io/en/latest/)
+- [Changelog](https://github.com/PyMySQL/PyMySQL/blob/master/CHANGELOG.md)
 

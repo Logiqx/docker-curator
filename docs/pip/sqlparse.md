@@ -4,11 +4,11 @@
 
 I'm using sqlparse in several projects:
 
-0.3.*
+0.4.*
 
 - wca-ipy
   - plus private project
-- wca-db (notebook)
+- wca-compose (dev/notebook)
 
 
 

@@ -7,7 +7,7 @@ I'm using requests in a couple of projects:
 2.25.*
 
 - covid-stats
-- wca-db (notebook)
+- wca-compose (dev/notebook)
 
 
 
