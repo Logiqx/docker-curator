@@ -4,7 +4,7 @@
 		"repositories": [{
 				"name": "Alpine Linux",
 				"repository": "alpine",
-				"deployed": "3.10",
+				"deployed": "3.13",
 				"desired": "3.13",
 				"checks": [{
 						"release": "3",
@@ -61,7 +61,7 @@
 		"repositories": [{
 				"repository": "python",
 				"name": "Python",
-				"deployed": "3.8-alpine3.11",
+				"deployed": "3.9-alpine3.13",
 				"desired": "3.9-alpine3.13",
 				"checks": [{
 						"release": "3",
@@ -246,23 +246,23 @@
 			"name": "Jenkins",
 			"repository": "jenkins/jenkins",
 			"deployed": "2.190.1-alpine",
-			"desired": "2.263.4-alpine",
+			"desired": "2.277.1-alpine",
 			"checks": [{
-					"release": "2.263.4",
+					"release": "2.277.1",
 					"tags": {
-						"lts": "2.263.4"
+						"lts": "2.277.1"
 					}
 				},
 				{
-					"release": "2.263.4 Slim",
+					"release": "2.277.1 Slim",
 					"tags": {
-						"lts-slim": "2.263.4-slim"
+						"lts-slim": "2.277.1-slim"
 					}
 				},
 				{
-					"release": "2.263.4 Alpine",
+					"release": "2.277.1 Alpine",
 					"tags": {
-						"lts-alpine": "2.263.4-alpine"
+						"lts-alpine": "2.277.1-alpine"
 					}
 				}
 			],

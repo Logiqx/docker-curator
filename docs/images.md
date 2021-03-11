@@ -1,9 +1,7 @@
 ## Operating Systems
 
 ### Alpine Linux
-#### 3.10 -> 3.13
-
-**REQUIRES ATTENTION**
+#### 3.13
 
 - [Docker Hub](https://hub.docker.com/_/alpine)
 - [News](https://alpinelinux.org/posts/)
@@ -52,9 +50,7 @@ Focal
 ## Programming Languages
 
 ### Python
-#### 3.8-alpine3.11 -> 3.9-alpine3.13
-
-**REQUIRES ATTENTION**
+#### 3.9-alpine3.13
 
 - [Docker Hub](https://hub.docker.com/_/python)
 - [News](https://www.python.org/blogs/)
@@ -185,7 +181,7 @@ Focal
 ## DevOps Tools
 
 ### Jenkins
-#### 2.190.1-alpine -> 2.263.4-alpine
+#### 2.190.1-alpine -> 2.277.1-alpine
 
 **REQUIRES ATTENTION**
 
@@ -194,14 +190,14 @@ Focal
 - [Releases](https://jenkins.io/changelog-stable/)
 
 ```
-2.263.4
-    lts = 2.263.4
+2.277.1
+    lts = 2.277.1
 
-2.263.4 Slim
-    lts-slim = 2.263.4-slim
+2.277.1 Slim
+    lts-slim = 2.277.1-slim
 
-2.263.4 Alpine
-    lts-alpine = 2.263.4-alpine
+2.277.1 Alpine
+    lts-alpine = 2.277.1-alpine
 ```
 
 
