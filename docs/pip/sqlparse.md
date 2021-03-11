@@ -14,7 +14,7 @@ I'm using sqlparse in several projects:
 
 ### Latest Version
 
-0.12.2 Feb 1, 2021
+0.4.1 Oct 8, 2020
 
 
 

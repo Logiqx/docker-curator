@@ -4,7 +4,7 @@
 
 I'm using numpy in a single project:
 
-1.19.*
+1.20.*
 
 - covid-stats
 
