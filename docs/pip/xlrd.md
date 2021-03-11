@@ -7,8 +7,8 @@ I'm using xlrd in several projects:
 1.2.*
 
 - covid-stats
-- wca-db
 - scw-comp
+- wca-compose (dev/notebook)
 
 
 
