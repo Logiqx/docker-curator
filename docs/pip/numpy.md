@@ -21,4 +21,4 @@ I'm using numpy in a single project:
 - [PyPI](https://pypi.org/project/numpy/)
 - [Homepage](https://numpy.org/)
 - [Documentation](https://numpy.org/doc/)
-
+- [Changelog](https://numpy.org/doc/stable/release.html)

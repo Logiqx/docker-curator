@@ -22,5 +22,5 @@ I'm using python-Levenshtein in several projects:
 
 - [PyPI](https://pypi.org/project/python-Levenshtein/)
 - [Homepage](https://github.com/ztane/python-Levenshtein)
-- [Release Notes](https://pypi.org/project/python-Levenshtein/#changelog)
+- [Changelog](https://pypi.org/project/python-Levenshtein/#changelog)
 

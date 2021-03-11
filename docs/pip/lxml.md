@@ -24,4 +24,5 @@ I'm using lxml in a couple of projects:
 
 - [PyPI](https://pypi.org/project/lxml/)
 - [Homepage](https://lxml.de/)
+- [Changelog](https://github.com/lxml/lxml/blob/master/CHANGES.txt)
 

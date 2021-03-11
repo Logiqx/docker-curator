@@ -23,5 +23,5 @@ I'm using sqlparse in several projects:
 - [PyPI](https://pypi.org/project/sqlparse/)
 - [Homepage](https://github.com/andialbrecht/sqlparse)
 - [Documentation](https://sqlparse.readthedocs.io/en/latest/)
-- [Release Notes](https://sqlparse.readthedocs.io/en/latest/changes/)
+- [Changelog](https://sqlparse.readthedocs.io/en/latest/changes/)
 

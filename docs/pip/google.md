@@ -8,6 +8,8 @@ I'm using google in a single project:
 
 - wca-compose (dev/notebook)
 
+Although 3.0.0 has been released, I cannot find any details about the changes.
+
 
 
 ### Latest Version

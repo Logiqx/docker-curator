@@ -20,4 +20,5 @@ I'm using awscli in a single project:
 
 - [PyPI](https://pypi.org/project/awscli/)
 - [Homepage](https://aws.amazon.com/cli/)
+- [Changelog](https://github.com/aws/aws-cli/blob/develop/CHANGELOG.rst)
 

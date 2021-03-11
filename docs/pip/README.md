@@ -16,7 +16,7 @@ pip install --no-cache-dir beautifulsoup4==4.*.*
 
 Notes:
 
-- I don't default to the latest because major releases it may contain breaking changes (e.g. dropping support for .xlsx in [xlrd](https://pypi.org/project/xlrd/#description) 2.0).
+- I don't default to the latest because major releases it may contain breaking changes (e.g. dropping support for .xlsx in [xlrd](https://xlrd.readthedocs.io/en/latest/changes.html) 2.0.0).
 
 - I don't specify patch releases (e.g. 0.11.2) because they are too specific and some projects yank them such as [python-Levenshtein](https://pypi.org/project/python-Levenshtein/#history).
 

@@ -28,4 +28,5 @@ Note: xlrd 2.0.0 dropped support for .xlsx files so I may need to consider movin
 
 - [PyPI](https://pypi.org/project/xlrd/)
 - [Homepage](http://www.python-excel.org/)
+- [Changelog](https://xlrd.readthedocs.io/en/latest/changes.html)
 
