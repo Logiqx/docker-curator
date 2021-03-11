@@ -40,7 +40,7 @@ Notes:
 #### SQL
 
 - [sqlparse](sqlparse.md)
-- [PyMySQL](sqlparse)
+- [PyMySQL](PyMySQL.md)
 
 
 
