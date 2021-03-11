@@ -22,6 +22,8 @@ mysql-client ~10.5 is used by all projects based on Alpine 3.13 and newer.
 
 - logiqx/mysql-client
 
+mysql-client ~10.4 is used by all projects based on Alpine 3.12.
+
 - wca-db
 
 
