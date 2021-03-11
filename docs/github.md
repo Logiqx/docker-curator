@@ -2,11 +2,7 @@
 
 ## Public Repositories on GitHub
 
-### tini
+I've got numerous projects on GitHub that uses Docker and I periodically update them to use newer base images.
 
-Rarely updated; Feb + Apr 2018 then Apr 2020.
-
-Check [releases](https://github.com/krallin/tini/releases) and [tags](https://github.com/krallin/tini/tags) on GitHub for new releases.
-
-Check [Alpine](https://pkgs.alpinelinux.org/package/edge/community/x86/tini) and [Debian](https://packages.debian.org/sid/tini) to see available versions.
+The Docker Curator script (written in Python) generates a [report](images.md) which gives me a heads-up of new images on Docker Hub.
 

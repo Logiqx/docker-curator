@@ -40,6 +40,8 @@ The biggest advantage is that the Dockerfile can be shared and re-used with high
 
 The way that I monitor for new Docker images is via a homemade Python script which I have called the Docker Curator.
 
+Docker Curator generates a [report](images.md) which gives me a heads-up of new images on Docker Hub.
+
 The script uses a simple JSON configuration file and searches Docker Hub for newer versions of specific images.
 
 Once I know what new Docker images are available, I go through my projects and update them accordingly:
@@ -47,11 +49,11 @@ Once I know what new Docker images are available, I go through my projects and u
 - Firstly, I update my public repositories on Docker Hub - see further [details](dockerhub/README.md)
 - Secondly, I update my public and private repositories on GitHub - see further [details](github.md)
 
+Whilst updating projects to use the latest base images, I also tend to update system packages and Python packages.
 
 
 
-
-## Additional Dependencies
+## Additional Packages
 
 ### System Packages
 
@@ -79,7 +81,7 @@ I have listed the Ubuntu packages in a separate [Ubuntu](ubuntu.md) document.
 
   
 
-### Python
+### Python Packages
 
 #### pip
 

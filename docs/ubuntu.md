@@ -12,7 +12,7 @@ Ubuntu packages are installed using "apt-get".
 
 mysql-client is required when working on the following projects:
 
-- wca-db
+- wca-compose (dev/notebook)
 
 
 
@@ -20,5 +20,6 @@ mysql-client is required when working on the following projects:
 
 gcc is required when working on the following projects:
 
-- scw-comp uses [python-Levenshtein](pip/python-Levenshtein.md) which requires gcc to be installed
+- wca-compose (dev/notebook)
+  - scw-comp uses [python-Levenshtein](pip/python-Levenshtein.md) which requires gcc to be installed
 
