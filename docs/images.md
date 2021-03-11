@@ -32,9 +32,7 @@ Buster
 
 
 ### Ubuntu
-#### bionic -> focal
-
-**REQUIRES ATTENTION**
+#### focal
 
 - [Docker Hub](https://hub.docker.com/_/ubuntu)
 - [News](https://lists.ubuntu.com/)

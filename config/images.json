@@ -41,7 +41,7 @@
 			{
 				"name": "Ubuntu",
 				"repository": "ubuntu",
-				"deployed": "bionic",
+				"deployed": "focal",
 				"desired": "focal",
 				"checks": [{
 					"release": "Focal",
