@@ -1,7 +1,7 @@
 ## Operating Systems
 
 ### Alpine Linux
-#### 3.13
+#### 3.15
 
 - [Docker Hub](https://hub.docker.com/_/alpine)
 - [News](https://alpinelinux.org/posts/)
@@ -11,22 +11,22 @@
 3
     latest = 3
 
-3.13
-    3 = 3.13
+3.15
+    3 = 3.15
 ```
 
 
 
 ### Debian
-#### buster
+#### bullseye
 
 - [Docker Hub](https://hub.docker.com/_/debian)
 - [News](https://www.debian.org/News/)
 - [Releases](https://wiki.debian.org/DebianReleases)
 
 ```
-Buster
-    latest = buster
+Bullseye
+    latest = bullseye
 ```
 
 
@@ -48,7 +48,7 @@ Focal
 ## Programming Languages
 
 ### Python
-#### 3.9-alpine3.13
+#### 3.10-alpine3.15
 
 - [Docker Hub](https://hub.docker.com/_/python)
 - [News](https://www.python.org/blogs/)
@@ -58,32 +58,32 @@ Focal
 3
     latest = 3
 
-3.9
-    3 = 3.9
+3.10
+    3 = 3.10
 
-3.9 Slim
+3.10 Slim
     slim = 3-slim
-    3-slim = 3.9-slim
+    3-slim = 3.10-slim
 
-3.9 Slim Buster
-    slim = slim-buster
-    slim-buster = 3-slim-buster
-    3-slim-buster = 3.9-slim-buster
+3.10 Slim Bullseye
+    slim = slim-bullseye
+    slim-bullseye = 3-slim-bullseye
+    3-slim-bullseye = 3.10-slim-bullseye
 
-3.9 Alpine
+3.10 Alpine
     alpine = 3-alpine
-    3-alpine = 3.9-alpine
+    3-alpine = 3.10-alpine
 
-3.9 Alpine 3.13
-    alpine = alpine3.13
-    alpine3.13 = 3-alpine3.13
-    3-alpine3.13 = 3.9-alpine3.13
+3.10 Alpine 3.15
+    alpine = alpine3.15
+    alpine3.15 = 3-alpine3.15
+    3-alpine3.15 = 3.10-alpine3.15
 ```
 
 
 
 ### PHP-FPM
-#### 7.3-fpm-alpine3.9 -> 8.0-fpm-alpine3.13
+#### 7.3-fpm-alpine3.9 -> 8.1-fpm-alpine3.15
 
 **REQUIRES ATTENTION**
 
@@ -95,17 +95,17 @@ Focal
 8-fpm
     fpm = 8-fpm
 
-8.0-fpm
-    8-fpm = 8.0-fpm
+8.1-fpm
+    8-fpm = 8.1-fpm
 
-8.0-fpm-alpine
+8.1-fpm-alpine
     fpm-alpine = 8-fpm-alpine
-    8-fpm-alpine = 8.0-fpm-alpine
+    8-fpm-alpine = 8.1-fpm-alpine
 
-8.0-fpm-alpine3.13
-    fpm-alpine = fpm-alpine3.13
-    fpm-alpine3.13 = 8-fpm-alpine3.13
-    8-fpm-alpine3.13 = 8.0-fpm-alpine3.13
+8.1-fpm-alpine3.15
+    fpm-alpine = fpm-alpine3.15
+    fpm-alpine3.15 = 8-fpm-alpine3.15
+    8-fpm-alpine3.15 = 8.1-fpm-alpine3.15
 ```
 
 
@@ -113,7 +113,7 @@ Focal
 ## Application Frameworks
 
 ### NGINX
-#### 1.14-alpine -> 1.19-alpine
+#### 1.14-alpine -> 1.21-alpine
 
 **REQUIRES ATTENTION**
 
@@ -125,12 +125,12 @@ Focal
 1
     latest = 1
 
-1.19
-    1 = 1.19
+1.21
+    1 = 1.21
 
-1.19 Alpine
+1.21 Alpine
     alpine = 1-alpine
-    1-alpine = 1.19-alpine
+    1-alpine = 1.21-alpine
 ```
 
 
@@ -138,7 +138,7 @@ Focal
 ## Databases
 
 ### MariaDB
-#### 10.3-bionic -> 10.5-focal
+#### 10.3-bionic -> 10.6-focal
 
 **REQUIRES ATTENTION**
 
@@ -150,11 +150,11 @@ Focal
 10
     latest = 10
 
-10.5
-    10 = 10.5
+10.6
+    10 = 10.6
 
-10.5 Focal
-    10.5 = 10.5-focal
+10.6 Focal
+    10.6 = 10.6-focal
 ```
 
 
@@ -179,7 +179,7 @@ Focal
 ## DevOps Tools
 
 ### Jenkins
-#### 2.190.1-alpine -> 2.277.1-alpine
+#### 2.190.1-alpine -> 2.319.1-alpine
 
 **REQUIRES ATTENTION**
 
@@ -188,14 +188,14 @@ Focal
 - [Releases](https://jenkins.io/changelog-stable/)
 
 ```
-2.277.1
-    lts = 2.277.1
+2.319.1
+    lts = 2.319.1
 
-2.277.1 Slim
-    lts-slim = 2.277.1-slim
+2.319.1 Slim
+    lts-slim = 2.319.1-slim
 
-2.277.1 Alpine
-    lts-alpine = 2.277.1-alpine
+2.319.1 Alpine
+    lts-alpine = 2.319.1-alpine
 ```
 
 
