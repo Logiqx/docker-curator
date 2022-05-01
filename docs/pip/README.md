@@ -50,6 +50,13 @@ Notes:
 
 
 
+#### GPS / Fitness Trackers
+
+- [fitparse](fitparse.md)
+- [gpxpy](gpxpy.md)
+
+
+
 #### Data Science
 
 - [numpy](numpy.md)
